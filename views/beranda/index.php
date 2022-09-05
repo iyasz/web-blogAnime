@@ -14,10 +14,7 @@
 
 <body>
     <style>
-        .an {
-            position: relative;
-            top: 40px;
-        }
+
     </style>
     <div id="carouselExampleInterval" class="an carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">

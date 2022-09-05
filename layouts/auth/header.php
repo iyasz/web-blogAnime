@@ -11,18 +11,25 @@
 
 <body>
   <style>
-    .togg{
+    .togg {
       border: none;
     }
+
     .togg:focus {
       box-shadow: none;
       border: none;
     }
+
     .navbar {
       z-index: 3;
     }
+
+    .border-white {
+      --bs-border-opacity: 30%;
+      border-color: rgba(var(--bs-white-rgb), var(--bs-border-opacity)) !important;
+    }
   </style>
-  <div class="position-fixed start-0 top-0 end-0 navbar navbar-expand-lg navbar-dark text-bg-dark shadow">
+  <div class="position-fixed start-0 top-0 end-0 navbar navbar-expand-lg navbar-dark text-bg-transparent border-bottom border-white">
     <div class="container">
       <a class="navbar-brand h1 mb-0" href="#">Anime</a>
       <button class="navbar-toggler togg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +45,7 @@
         <div class="navbar-nav ms-auto">
           <a class="nav-link" href="#"><i class='bx bxl-facebook-circle'></i></a>
           <a class="nav-link" href="#"><i class='bx bxl-instagram-alt'></i></a>
-          <a class="nav-link" href="#"><i class='bx bxl-twitter' ></i></a>
+          <a class="nav-link" href="#"><i class='bx bxl-twitter'></i></a>
         </div>
       </div>
     </div>
