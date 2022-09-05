@@ -27,10 +27,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto gap-1">
-          <a class="nav-link" href="index.php">Beranda</a>
-          <a class="nav-link" href="index.php?page='terbaru'">Terbaru</a>
-          <a class="nav-link" href="index.php?page='populer'">Populer</a>
-          <a class="nav-link" href="index.php?page='contact'">Contact</a>
+          <a class="nav-link" href="index.php?page=beranda">Beranda</a>
+          <a class="nav-link" href="index.php?page=terbaru">Terbaru</a>
+          <a class="nav-link" href="index.php?page=populer">Populer</a>
+          <a class="nav-link" href="index.php?page=contact">Contact</a>
         </div>
         <div class="navbar-nav ms-auto">
           <a class="nav-link" href="#"><i class='bx bxl-facebook-circle'></i></a>
