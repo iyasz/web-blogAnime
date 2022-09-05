@@ -6,28 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark text-bg-dark">
+  <style>
+    .togg{
+      border: none;
+    }
+    .togg:focus {
+      box-shadow: none;
+      border: none;
+    }
+  </style>
+  <div class="position-fixed start-0 top-0 end-0 navbar navbar-expand-lg navbar-dark text-bg-dark shadow">
     <div class="container">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand h1 mb-0" href="#">Anime</a>
+      <button class="navbar-toggler togg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ">
-          <a class="nav-link" href="#">Home</a>
-          <a class="nav-link" href="#">Features</a>
-          <a class="nav-link" href="#">Pricing</a>
-          <a class="nav-link ">Disabled</a>
+          <a class="nav-link" href="#">Beranda</a>
+          <a class="nav-link" href="#">Terbaru</a>
+          <a class="nav-link" href="#">Populer</a>
+          <a class="nav-link" href="">Contact</a>
         </div>
         <div class="navbar-nav ms-auto">
-          <a class="nav-link" href="#">Home</a>
-          <a class="nav-link" href="#">Features</a>
-          <a class="nav-link" href="#">Pricing</a>
-          <a class="nav-link disabled">Disabled</a>
+          <a class="nav-link" href="#"><i class='bx bxl-facebook-circle'></i></a>
+          <a class="nav-link" href="#"><i class='bx bxl-instagram-alt'></i></a>
+          <a class="nav-link" href="#"><i class='bx bxl-twitter' ></i></a>
         </div>
       </div>
     </div>
-  </nav>
+  </div>
