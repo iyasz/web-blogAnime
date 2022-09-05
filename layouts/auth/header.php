@@ -18,6 +18,9 @@
       box-shadow: none;
       border: none;
     }
+    .navbar {
+      z-index: 3;
+    }
   </style>
   <div class="position-fixed start-0 top-0 end-0 navbar navbar-expand-lg navbar-dark text-bg-dark shadow">
     <div class="container">
