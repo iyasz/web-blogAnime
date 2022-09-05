@@ -26,11 +26,11 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ">
-          <a class="nav-link" href="#">Beranda</a>
-          <a class="nav-link" href="#">Terbaru</a>
-          <a class="nav-link" href="#">Populer</a>
-          <a class="nav-link" href="">Contact</a>
+        <div class="navbar-nav ms-auto gap-1">
+          <a class="nav-link" href="index.php">Beranda</a>
+          <a class="nav-link" href="index.php?page='terbaru'">Terbaru</a>
+          <a class="nav-link" href="index.php?page='populer'">Populer</a>
+          <a class="nav-link" href="index.php?page='contact'">Contact</a>
         </div>
         <div class="navbar-nav ms-auto">
           <a class="nav-link" href="#"><i class='bx bxl-facebook-circle'></i></a>
