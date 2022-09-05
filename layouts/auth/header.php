@@ -26,7 +26,7 @@
     <div class="container">
       <a class="navbar-brand h1 mb-0" href="#">Anime</a>
       <button class="navbar-toggler togg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <div class="navbar-toggler-icon ic"></div>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto gap-1">
